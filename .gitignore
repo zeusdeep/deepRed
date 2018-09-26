@@ -11,6 +11,10 @@ Pods/
 build/
 DerivedData/
 
+
+## fastlane report
+fastlane/report.xml
+
 ## Various settings
 *.pbxuser
 !default.pbxuser

@@ -11,10 +11,10 @@
 		6A62EF0B215B1DD900FC4E2B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A62EF0A215B1DD900FC4E2B /* Launch Screen.storyboard */; };
 		6A62EF0E215B22C500FC4E2B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62EF0D215B22C500FC4E2B /* Coordinator.swift */; };
 		6A62EF10215B234D00FC4E2B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62EF0F215B234D00FC4E2B /* AppCoordinator.swift */; };
+		6A62EF14215B272900FC4E2B /* AppCoordinatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62EF13215B272900FC4E2B /* AppCoordinatorTest.swift */; };
 		6AD2D24D215B19420063AA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2D24C215B19420063AA21 /* AppDelegate.swift */; };
 		6AD2D24F215B19420063AA21 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2D24E215B19420063AA21 /* FeedViewController.swift */; };
 		6AD2D254215B19440063AA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD2D253215B19440063AA21 /* Assets.xcassets */; };
-		6AD2D262215B19440063AA21 /* deepRedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2D261215B19440063AA21 /* deepRedTests.swift */; };
 		6AD2D26D215B19440063AA21 /* deepRedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2D26C215B19440063AA21 /* deepRedUITests.swift */; };
 		9854560E3C5B6B3D92F32852 /* Pods_deepRedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E4113F635A093F28386126 /* Pods_deepRedUITests.framework */; };
 		F8A6B79E880A220CC9A56720 /* Pods_deepRed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D356C2D178E46FD23DC4C5C /* Pods_deepRed.framework */; };
@@ -43,13 +43,13 @@
 		6A62EF0A215B1DD900FC4E2B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6A62EF0D215B22C500FC4E2B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		6A62EF0F215B234D00FC4E2B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6A62EF13215B272900FC4E2B /* AppCoordinatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTest.swift; sourceTree = "<group>"; };
 		6AD2D249215B19420063AA21 /* deepRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deepRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD2D24C215B19420063AA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD2D24E215B19420063AA21 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		6AD2D253215B19440063AA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AD2D258215B19440063AA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AD2D25D215B19440063AA21 /* deepRedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deepRedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AD2D261215B19440063AA21 /* deepRedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepRedTests.swift; sourceTree = "<group>"; };
 		6AD2D263215B19440063AA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AD2D268215B19440063AA21 /* deepRedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deepRedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD2D26C215B19440063AA21 /* deepRedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepRedUITests.swift; sourceTree = "<group>"; };
@@ -121,6 +121,21 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		6A62EF11215B26E200FC4E2B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6A62EF13215B272900FC4E2B /* AppCoordinatorTest.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6A62EF12215B26F800FC4E2B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		6A885F40215B1BDC00C0DDC3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +182,8 @@
 		6AD2D260215B19440063AA21 /* deepRedTests */ = {
 			isa = PBXGroup;
 			children = (
-				6AD2D261215B19440063AA21 /* deepRedTests.swift */,
+				6A62EF12215B26F800FC4E2B /* ViewControllers */,
+				6A62EF11215B26E200FC4E2B /* Coordinator */,
 				6AD2D263215B19440063AA21 /* Info.plist */,
 			);
 			path = deepRedTests;
@@ -267,6 +283,7 @@
 					};
 					6AD2D25C215B19440063AA21 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = 6AD2D248215B19420063AA21;
 					};
 					6AD2D267215B19440063AA21 = {
@@ -430,7 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD2D262215B19440063AA21 /* deepRedTests.swift in Sources */,
+				6A62EF14215B272900FC4E2B /* AppCoordinatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +635,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KAA5MU2CHP;
 				INFOPLIST_FILE = deepRedTests/Info.plist;
@@ -628,6 +646,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deepparekh.deepRed.deepRedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deepRed.app/deepRed";
@@ -640,6 +659,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KAA5MU2CHP;
 				INFOPLIST_FILE = deepRedTests/Info.plist;
